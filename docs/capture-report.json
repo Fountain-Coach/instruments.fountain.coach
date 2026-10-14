@@ -1,0 +1,100 @@
+{
+  "host": "instruments.fountain.coach",
+  "files": [
+    {
+      "path": "assets/catalog-grid-social.png",
+      "sha256": "1930bdd4ec9d80dad9dbb0d9c3684973a9cf8066136b00fc4a503e0d2bc1e234",
+      "bytes": 52574
+    },
+    {
+      "path": "assets/codex-login-instrument-icon.svg",
+      "sha256": "8e8ce72832a8478eb3ea3af2064b9c8eae6d6881496579dea975d7bf6a371b8f",
+      "bytes": 845
+    },
+    {
+      "path": "assets/csound-auv3-instrument-social.png",
+      "sha256": "bfa96a64fc330853acb757cfe3e86e4c6fac3c587125fb77fc8404194c9d0d24",
+      "bytes": 3029
+    },
+    {
+      "path": "assets/csound-auv3-instrument.svg",
+      "sha256": "498be5066bde85e698d2ec35df370b243f669b62c6cf77f69416d66337ab1649",
+      "bytes": 918
+    },
+    {
+      "path": "assets/estate-core.css",
+      "sha256": "31baf2864046acf1885c49ccff40869d0dfbc9da63a2af674aecf218b8f8dbfe",
+      "bytes": 21237
+    },
+    {
+      "path": "assets/estate-core.js",
+      "sha256": "1c1a47002fa18c66c7ce328ac07db8457bf71aea2e5b878c8f7a3c80e53046a4",
+      "bytes": 7136
+    },
+    {
+      "path": "assets/fountain-coach-logo-transparent.png",
+      "sha256": "8c5fad1c3db56138d5959da75991dc8034a0be537ce46da6ffcc0d9655e7f729",
+      "bytes": 9842
+    },
+    {
+      "path": "assets/reframe-codex-auth-instrument-social.png",
+      "sha256": "b902db7811d544307fb0e47dd490a1143538a65956b5293a6fb7a59c72e1edc1",
+      "bytes": 147293
+    },
+    {
+      "path": "assets/reframe-codex-auth-instrument.svg",
+      "sha256": "beedb21e0aeaefcf8c459b75cb66f61c2b70c676e36b0f6611cc7ba5eac3500b",
+      "bytes": 5754
+    },
+    {
+      "path": "assets/semantic-browser-instrument-icon.svg",
+      "sha256": "6ae748a41c9874e970cb9c27dec9f2993c0737ec48c69d1409773f25e994d700",
+      "bytes": 1285
+    },
+    {
+      "path": "assets/semantic-browser-instrument-social.png",
+      "sha256": "f900b30cf68d96e23176c5692635ec89d99013291a3b6aeac7e5c9f7f90ae6cd",
+      "bytes": 99687
+    },
+    {
+      "path": "assets/semantic-browser-instrument.svg",
+      "sha256": "4962377831d213fc3559452a6dbf064eb2bc1b63a2f5b8360c3da56bf6b27216",
+      "bytes": 3337
+    },
+    {
+      "path": "assets/site.css",
+      "sha256": "16dee9695165363ab757a9bec51ffe422c93a8e4e9bcb39ae659b4a68cdd3080",
+      "bytes": 6515
+    },
+    {
+      "path": "assets/site.js",
+      "sha256": "75c9629c1e186b55cde0d384b70c596c4a0ebb45cf3540134c8e26ef949b8570",
+      "bytes": 70
+    },
+    {
+      "path": "index.html",
+      "sha256": "293b057932a9886157d1d7f2d260738cac3c7d8d64e8619ff9ea2da8655dbd0b",
+      "bytes": 13963
+    },
+    {
+      "path": "instruments/codex-auth-instrument/index.html",
+      "sha256": "56a65da13f63a2c8c568e9d8f9ecfcfe92bafd0f69b02fcfab8018893d1a11a0",
+      "bytes": 11977
+    },
+    {
+      "path": "instruments/csound-auv3/index.html",
+      "sha256": "3c76f6f3437e3c6dc063cac9bcd8e753783e9b628a372e748b42b39927eede73",
+      "bytes": 10039
+    },
+    {
+      "path": "instruments/semantic-browser/index.html",
+      "sha256": "06cb3c060553a9279debcee7e463bfaf8d3667a0e683a87e4f9e60d3d5011d7c",
+      "bytes": 11619
+    },
+    {
+      "path": "publication-manifest.json",
+      "sha256": "4a42117a3879101800dba9684d2f49c7ef4a08f9f1a319074963414babb55d2d",
+      "bytes": 4513
+    }
+  ]
+}

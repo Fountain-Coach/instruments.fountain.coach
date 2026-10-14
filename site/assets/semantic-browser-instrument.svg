@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Semantic Browser instrument</title>
+  <desc id="desc">A source URL enters a governed semantic browser instrument, which produces a snapshot, semantic addresses, and evidence projections.</desc>
+  <rect width="1200" height="630" fill="#f7f8f6"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" fill="#17202b">
+    <text x="72" y="70" font-size="18" letter-spacing="4" fill="#596574">FCIS-KIT INSTRUMENT · SEMANTIC BROWSER</text>
+    <text x="72" y="125" font-size="42" font-weight="700">Observe the page. Address the meaning.</text>
+    <text x="72" y="160" font-size="20" fill="#596574">A governed instrument for source-grounded browser observation.</text>
+    <rect x="72" y="230" width="250" height="150" rx="18" fill="#fff" stroke="#b9c6d2" stroke-width="2"/>
+    <text x="98" y="270" font-size="18" font-weight="700">ADMITTED SOURCE</text>
+    <text x="98" y="312" font-size="20" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">https://…</text>
+    <text x="98" y="348" font-size="16" fill="#596574">URL · HTML · page identity</text>
+    <path d="M342 305H440" fill="none" stroke="#63798b" stroke-width="4"/><path d="m428 293 18 12-18 12" fill="#63798b"/>
+    <rect x="460" y="195" width="300" height="220" rx="20" fill="#193149"/>
+    <text x="492" y="242" font-size="18" font-weight="700" fill="#fff">SEMANTIC BROWSER</text>
+    <text x="492" y="285" font-size="17" fill="#c7d7e3">snapshot</text>
+    <text x="492" y="319" font-size="17" fill="#c7d7e3">dissection</text>
+    <text x="492" y="353" font-size="17" fill="#c7d7e3">stable address</text>
+    <text x="492" y="387" font-size="17" fill="#9cd8ce">MIDI2 lifecycle · SemVer</text>
+    <path d="M780 245C835 210 850 210 900 210" fill="none" stroke="#63798b" stroke-width="4"/><path d="m887 198 18 12-18 12" fill="#63798b"/>
+    <path d="M780 305H900" fill="none" stroke="#63798b" stroke-width="4"/><path d="m887 293 18 12-18 12" fill="#63798b"/>
+    <path d="M780 365C835 400 850 400 900 400" fill="none" stroke="#63798b" stroke-width="4"/><path d="m887 388 18 12-18 12" fill="#63798b"/>
+    <rect x="920" y="165" width="220" height="90" rx="16" fill="#e4f1ee" stroke="#a9d3ca" stroke-width="2"/>
+    <text x="946" y="202" font-size="17" font-weight="700">SOURCE VIEW</text><text x="946" y="230" font-size="14" fill="#596574">rendered projection</text>
+    <rect x="920" y="260" width="220" height="90" rx="16" fill="#e8eef7" stroke="#bdcde0" stroke-width="2"/>
+    <text x="946" y="297" font-size="17" font-weight="700">MIDI2 MONITOR</text><text x="946" y="325" font-size="14" fill="#596574">wired event stream</text>
+    <rect x="920" y="355" width="220" height="90" rx="16" fill="#fff0dc" stroke="#e4c28d" stroke-width="2"/>
+    <text x="946" y="392" font-size="17" font-weight="700">FOUNTAINSTORE</text><text x="946" y="420" font-size="14" fill="#596574">receipt · evidence</text>
+    <rect x="72" y="500" width="1068" height="70" rx="16" fill="#fff8f2" stroke="#e8b79f" stroke-width="2"/>
+    <text x="100" y="532" font-size="16" font-weight="700">BOUNDARY</text><text x="100" y="557" font-size="15" fill="#596574">The browser observes and addresses; Reframe remains source authority.</text>
+  </g>
+</svg>

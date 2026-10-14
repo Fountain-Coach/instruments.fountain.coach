@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Codex auth instrument projected through Copilot and MIDI2 Monitor</title>
+  <desc id="desc">A deterministic Reframe design mock showing Copilot intent entering a Codex auth MIDI2 instrument, a provider approved browser or WebKit projection, and a monitor strip with terminal evidence boundaries.</desc>
+  <defs>
+    <style>
+      .ink{fill:#23313c}.muted{fill:#667783}.blue{fill:#2d7895}.pale{fill:#eaf3f6}.line{stroke:#8aabb8;stroke-width:2;fill:none}.soft{stroke:#c7d6dc;stroke-width:2;fill:#fff}.small{font:16px 'Courier New',monospace;letter-spacing:1px}.label{font:700 18px 'Courier New',monospace;letter-spacing:1px}.body{font:18px 'Courier New',monospace}.title{font:700 24px 'Courier New',monospace;letter-spacing:3px}.tiny{font:14px 'Courier New',monospace;letter-spacing:.6px}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#5e91a3"/></marker>
+  </defs>
+  <rect width="1400" height="820" fill="#f7fafb"/>
+  <rect x="28" y="28" width="1344" height="764" rx="22" fill="#fff" stroke="#b7cbd3" stroke-width="2"/>
+  <text x="70" y="78" class="title ink">REFRAME GOVERNANCE · CHAPTER 89</text>
+  <text x="70" y="108" class="small muted">DESIGN MOCK · NOT LIVE EVIDENCE · CODEX AUTH INSTRUMENT</text>
+  <text x="1330" y="78" text-anchor="end" class="tiny muted">COPILOT / MIDI2 / STORE / AX</text>
+
+  <rect x="70" y="150" width="330" height="290" rx="16" class="soft"/>
+  <text x="98" y="188" class="small muted">WRITER-FACING SURFACE</text>
+  <text x="98" y="232" class="title ink">COPILOT</text>
+  <rect x="98" y="258" width="274" height="74" rx="10" fill="#edf5f7" stroke="#8aabb8"/>
+  <text x="118" y="288" class="body ink">Codex sign-in is</text>
+  <text x="118" y="314" class="body ink">needed for this turn.</text>
+  <rect x="98" y="352" width="274" height="54" rx="8" fill="#e8f2f5" stroke="#4f8da3"/>
+  <text x="235" y="386" text-anchor="middle" class="label blue">OPEN AUTH FLOW</text>
+  <text x="98" y="428" class="tiny muted">AX: action + state + result</text>
+
+  <rect x="510" y="150" width="380" height="290" rx="16" fill="#eaf3f6" stroke="#5a91a3" stroke-width="3"/>
+  <text x="540" y="188" class="small muted">SWIFT-OWNED INSTRUMENT</text>
+  <text x="540" y="232" class="title ink">CODEX.AUTH</text>
+  <text x="540" y="260" class="body muted">MIDI2 lifecycle boundary</text>
+  <line x1="540" y1="282" x2="860" y2="282" class="line"/>
+  <circle cx="556" cy="316" r="6" fill="#4f91a7"/><text x="578" y="322" class="body ink">discover · admit · subscribe</text>
+  <circle cx="556" cy="350" r="6" fill="#4f91a7"/><text x="578" y="356" class="body ink">challenge · handoff · result</text>
+  <circle cx="556" cy="384" r="6" fill="#4f91a7"/><text x="578" y="390" class="body ink">receipt · AX · terminal</text>
+  <text x="578" y="414" class="body ink">event settlement</text>
+  <text x="540" y="432" class="tiny muted">no polling · no hidden preference</text>
+
+  <rect x="1000" y="150" width="330" height="290" rx="16" class="soft"/>
+  <text x="1030" y="188" class="small muted">PROVIDER-APPROVED CONTEXT</text>
+  <text x="1030" y="232" class="title ink">BROWSER / WEBKIT</text>
+  <rect x="1030" y="258" width="270" height="74" rx="10" fill="#f4f7f8" stroke="#b7cbd3"/>
+  <text x="1165" y="288" text-anchor="middle" class="body ink">secure handoff</text>
+  <text x="1165" y="314" text-anchor="middle" class="body ink">redacted result only</text>
+  <line x1="1030" y1="356" x2="1300" y2="356" class="line"/>
+  <text x="1030" y="388" class="label" fill="#9b5349">NO RAW CREDENTIALS</text>
+  <text x="1030" y="424" class="tiny muted">not another app's session</text>
+
+  <path d="M400 295H500" class="line" marker-end="url(#arrow)"/><text x="450" y="278" text-anchor="middle" class="tiny muted">intent</text>
+  <path d="M900 295H990" class="line" marker-end="url(#arrow)"/><text x="945" y="278" text-anchor="middle" class="tiny muted">handoff</text>
+
+  <rect x="70" y="500" width="1260" height="220" rx="16" fill="#f2f7f8" stroke="#9ebbc6" stroke-width="2"/>
+  <text x="100" y="540" class="label ink">MIDI2 MONITOR · LIVE EVENT MIRROR</text>
+  <text x="100" y="570" class="tiny muted">the monitor observes; FountainStore proves; AX exposes</text>
+  <g transform="translate(100,610)">
+    <rect width="180" height="54" rx="8" fill="#fff" stroke="#8aabb8"/><text x="90" y="33" text-anchor="middle" class="label ink">ADMITTED</text>
+    <path d="M185 27H220" class="line" marker-end="url(#arrow)"/>
+    <rect x="230" width="180" height="54" rx="8" fill="#fff" stroke="#8aabb8"/><text x="320" y="33" text-anchor="middle" class="label ink">CHALLENGE</text>
+    <path d="M415 27H450" class="line" marker-end="url(#arrow)"/>
+    <rect x="460" width="180" height="54" rx="8" fill="#fff" stroke="#8aabb8"/><text x="550" y="33" text-anchor="middle" class="label ink">HANDOFF</text>
+    <path d="M645 27H680" class="line" marker-end="url(#arrow)"/>
+    <rect x="690" width="180" height="54" rx="8" fill="#fff" stroke="#8aabb8"/><text x="780" y="33" text-anchor="middle" class="label ink">RESULT</text>
+    <path d="M875 27H910" class="line" marker-end="url(#arrow)"/>
+    <rect x="920" width="180" height="54" rx="8" fill="#dceef2" stroke="#4f8da3"/><text x="1010" y="33" text-anchor="middle" class="label blue">RECEIPT</text>
+  </g>
+  <text x="100" y="696" class="tiny muted">DESIGN MOCK · no Store ID · no correlation ID · no login claim · no release claim</text>
+  <text x="1330" y="760" text-anchor="end" class="tiny muted">Fountain Coach · deterministic declarative SVG · Chapter 89</text>
+</svg>

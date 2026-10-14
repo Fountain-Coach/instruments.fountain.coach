@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Semantic Browser Instrument icon</title>
+  <desc id="desc">A simple semantic graph joining a page frame to three related nodes.</desc>
+  <style>
+    :root { --ink: #17202b; --accent: #a65f46; }
+    @media (prefers-color-scheme: dark) { :root { --ink: #ffffff; --accent: #e09a78; } }
+  </style>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="112" y="64" width="288" height="384" rx="32" stroke="var(--ink)" stroke-width="18"/>
+    <path d="M112 150h288" stroke="var(--accent)" stroke-width="10"/>
+    <path d="M164 252h184M164 316h184" stroke="var(--ink)" stroke-width="14"/>
+    <path d="M256 150v82" stroke="var(--accent)" stroke-width="10"/>
+    <circle cx="256" cy="248" r="30" fill="var(--accent)" stroke="var(--accent)" stroke-width="8"/>
+    <path d="M256 278v44M164 252v-4M348 252v-4" stroke="var(--accent)" stroke-width="10"/>
+    <circle cx="164" cy="352" r="24" fill="var(--ink)" stroke="var(--ink)" stroke-width="8"/>
+    <circle cx="256" cy="352" r="24" fill="var(--ink)" stroke="var(--ink)" stroke-width="8"/>
+    <circle cx="348" cy="352" r="24" fill="var(--ink)" stroke="var(--ink)" stroke-width="8"/>
+  </g>
+</svg>

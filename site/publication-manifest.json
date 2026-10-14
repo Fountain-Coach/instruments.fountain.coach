@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "catalog": {
+    "name": "Fountain Coach MIDI2 Instruments",
+    "canonicalHost": "instruments.fountain.coach",
+    "publicationState": "published",
+    "marketplaceState": "catalog-only",
+    "socialImage": {
+      "path": "/assets/catalog-grid-social.png",
+      "width": 1200,
+      "height": 630,
+      "kind": "current-catalogue-grid-derivative",
+      "source": "the current instrument index grid"
+    },
+    "relatedSurfaces": [
+      {"name": "The Book of Reframe", "url": "https://book.fountain.coach/", "role": "behavior-and-evidence"},
+      {"name": "Reframe Governance", "url": "https://governance.fountain.coach/", "role": "doctrine-and-acceptance"},
+      {"name": "Fountain Coach MIDI2 Instruments", "url": "https://instruments.fountain.coach/", "role": "instrument-contract-and-distribution"}
+    ]
+  },
+  "association": {
+    "name": "The MIDI Association",
+    "manufacturer": "Fountain Coach",
+    "identityStatus": "pending-assignment",
+    "manufacturerSysexId": null,
+    "logoStatus": "not-requested",
+    "directoryStatus": "not-submitted"
+  },
+  "instruments": [
+    {
+      "id": "codex.auth.instrument",
+      "scenario": "codex-auth-instrument",
+      "title": "Reframe-owned Codex Auth Instrument",
+      "operation": "codex/auth.login.start",
+      "route": "/instruments/codex-auth-instrument/",
+      "principalIllustration": {
+        "path": "/assets/reframe-codex-auth-instrument.svg",
+        "kind": "canonical-design-projection",
+        "verificationSnapshot": "not-established"
+      },
+      "socialImage": {
+        "path": "/assets/reframe-codex-auth-instrument-social.png",
+        "width": 1200,
+        "height": 630,
+        "kind": "principal-illustration-derivative"
+      },
+      "status": "executable",
+      "riskDisposition": "risk-managed",
+      "securityReview": "pending",
+      "liveAcceptance": "not-established",
+      "release": "not-released",
+      "claimBoundary": "Governed executable auth instrument; no security certification or released-build claim."
+    },
+    {
+      "id": "fountaincoach.semantic-browser",
+      "scenario": "semantic-browser-local-estate",
+      "title": "Semantic Browser Instrument",
+      "operation": "reframe/semantic-browser.preview",
+      "operations": ["reframe/semantic-browser.preview", "reframe/semantic-browser.dissect", "reframe/semantic-browser.resolve", "reframe/semantic-browser.focus"],
+      "route": "/instruments/semantic-browser/",
+      "principalIllustration": {
+        "path": "/assets/semantic-browser-instrument.svg",
+        "kind": "deterministic-contract-projection",
+        "verificationSnapshot": "not-established"
+      },
+      "socialImage": {
+        "path": "/assets/semantic-browser-instrument-social.png",
+        "width": 1200,
+        "height": 630,
+        "kind": "principal-illustration-derivative"
+      },
+      "status": "implemented",
+      "riskDisposition": "risk-managed",
+      "securityReview": "pending",
+      "liveAcceptance": "not-established",
+      "release": "package-released-0.1.3-consumer-contract-pending",
+      "claimBoundary": "Source-addressed semantic browser instrument; no live acceptance, certification, independent security review, or released Reframe build claim."
+    },
+    {
+      "id": "fountaincoach.csound-auv3",
+      "scenario": "csound-auv3-instrument-boundary",
+      "title": "Csound AUv3 Instrument",
+      "operation": "reframe/audiounit.lifecycle",
+      "route": "/instruments/csound-auv3/",
+      "semanticRecords": {
+        "book": "https://book.fountain.coach/capabilities/csound-auv3-instrument-boundary/",
+        "governance": "https://governance.fountain.coach/chapters/133-csound-auv3-instrument-boundary/"
+      },
+      "principalIllustration": {
+        "path": "/assets/csound-auv3-instrument.svg",
+        "kind": "deterministic-boundary-projection",
+        "verificationSnapshot": "not-established"
+      },
+      "socialImage": {
+        "path": "/assets/csound-auv3-instrument-social.png",
+        "width": 1200,
+        "height": 630,
+        "kind": "principal-illustration-derivative"
+      },
+      "status": "designed",
+      "riskDisposition": "not-yet-admitted",
+      "securityReview": "not-applicable-at-design-stage",
+      "liveAcceptance": "not-established",
+      "release": "not-released",
+      "claimBoundary": "Chapter 133 Csound AUv3 design projection; no native extension, AUM witness, Reframe MIDI 2.0 adapter, hardware, release, or certification claim."
+    }
+  ]
+}
