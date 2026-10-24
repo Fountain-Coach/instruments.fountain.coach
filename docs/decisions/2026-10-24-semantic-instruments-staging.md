@@ -20,3 +20,7 @@ Header and existing nine-member reel remain untouched; then title and statement 
 ## Release boundary
 
 Git source is the development authority. The current public live release is the production baseline and stays unchanged. This candidate is for the single canonical Ubuntu Mac mini WLAN staging identity at /instruments/ only, on top of its current immutable staging release. Other staged routes, global shell and footer are preserved; link to the existing public historic pages rather than creating fake local routes. The final public release requires separate author authorization and EstatePublisher publication readback.
+
+## Author correction — retain established icon semantics
+
+The author provided an explicit visual reference for **microphone / ear / clapperboard** and rejected our earlier custom pictograms. The three originals are replaced with unmodified standard Lucide path geometry (lucide-static v0.468.0, ISC), locally stored under the existing source-owned filenames with neutral grayscale strokes. No colored tiles, backdrop pictures or custom interpretations. Stage typography and instrument information remain intact. The corresponding Instruments social artwork must use those exact same symbols. See docs/LUCIDE-ISC-LICENSE.txt for source license.

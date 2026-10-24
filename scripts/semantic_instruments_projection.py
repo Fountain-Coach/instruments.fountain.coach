@@ -3,11 +3,9 @@
 from pathlib import Path
 import argparse, re, shutil
 
-LOGOS = {
-"sing": """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc"><title id="title">Sing — voice and articulation</title><desc id="desc">A vertical vocal source with three open resonating waves</desc><rect width="256" height="256" rx="48" fill="#eceee7"/><g fill="none" stroke="#283733" stroke-linecap="round" stroke-linejoin="round"><path d="M128 184V73" stroke-width="11"/><path d="M113 73a15 15 0 0 1 30 0" stroke-width="10"/><path d="M97 96c-21 15-21 49 0 64m62-64c21 15 21 49 0 64" stroke-width="8"/><path d="M71 77c-33 27-33 76 0 103m114-103c33 27 33 76 0 103" stroke-width="7"/><path d="M105 188h46" stroke-width="7"/></g><circle cx="128" cy="57" r="7" fill="#a07755"/></svg>""",
-"ear": """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc"><title id="title">Ear — attentive listening</title><desc id="desc">Three arriving sound arcs converge at a listening point</desc><rect width="256" height="256" rx="48" fill="#eceee7"/><g fill="none" stroke="#283733" stroke-linecap="round"><path d="M72 69c-35 31-36 89-3 122" stroke-width="7"/><path d="M100 87c-24 23-25 58-1 82" stroke-width="8"/><path d="M132 106c-11 10-11 31 0 42" stroke-width="9"/><path d="M157 58c34 15 56 47 56 84 0 36-19 61-52 76" stroke-width="7"/><path d="M158 89c19 10 30 27 30 48 0 20-10 35-29 44" stroke-width="7"/></g><circle cx="150" cy="128" r="11" fill="#a07755"/></svg>""",
-"satzfunk-player": """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc"><title id="title">SatzfunkPlayer — the composed image and playback</title><desc id="desc">An editorial frame carries a visible poster and a playback timeline</desc><rect width="256" height="256" rx="48" fill="#eceee7"/><g stroke="#283733" fill="none" stroke-linejoin="round"><rect x="47" y="73" width="162" height="116" rx="10" stroke-width="8"/><path d="M47 160h162" stroke-width="6"/><path d="M69 142l34-37 28 24 26-37 34 50" stroke-width="7"/><path d="M70 177h115" stroke-width="6" stroke-linecap="round"/></g><circle cx="114" cy="177" r="7" fill="#a07755"/><circle cx="171" cy="92" r="7" fill="#a07755"/></svg>"""
-}
+# Three existing Lucide v0.468.0 symbols, locally vendored under ISC.
+# Never regenerate custom icons from this script.
+LOGOS = ("sing", "ear", "satzfunk-player")
 STYLE = """
 /* Semantic Instruments: three evidenced families, not an empty capability matrix. */
 .catalog-index .catalog-heading.semantic-heading {padding-bottom:2.4rem}
@@ -18,13 +16,14 @@ STYLE = """
 .semantic-grid {grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(14px,2vw,30px)}
 .semantic-grid .instrument-tile {display:block;color:var(--ink);transition:transform .16s ease;text-decoration:none}
 .semantic-grid .instrument-tile:hover {transform:translateY(-2px)}
-.semantic-grid .instrument-icon {border-radius:22.37%;padding:0;overflow:hidden;aspect-ratio:1;background:#eceee7;border:1px solid var(--line)}
-.semantic-grid .instrument-icon img {display:block;width:100%;height:100%;object-fit:cover}
-.semantic-grid .instrument-tile:hover .instrument-icon,.semantic-grid .instrument-tile:focus-visible .instrument-icon{border-color:var(--ink);background:#eceee7}
-.semantic-grid .instrument-name {font-size:clamp(1.35rem,2.5vw,2rem);font-weight:650;line-height:1.18;margin:18px 0 8px;letter-spacing:-.04em}
-.semantic-grid .instrument-meta {font:600 .70rem/1.3 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted);letter-spacing:.045em;text-transform:uppercase;margin-bottom:10px}
+.semantic-grid .instrument-icon {display:grid;place-items:center;height:78px;aspect-ratio:auto;padding:0;margin:0;border:none;border-radius:0;background:transparent}
+.semantic-grid .instrument-icon img {display:block;width:44px;height:44px;object-fit:contain}
+.semantic-grid .instrument-tile:hover .instrument-icon,.semantic-grid .instrument-tile:focus-visible .instrument-icon{border:none;background:transparent}
+.semantic-grid .instrument-name {font-size:clamp(1.35rem,2.5vw,2rem);font-weight:650;line-height:1.18;margin:8px 0 8px;letter-spacing:-.04em;text-align:center}
+.semantic-grid .instrument-meta {font:600 .70rem/1.3 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted);letter-spacing:.045em;text-transform:uppercase;margin-bottom:10px;text-align:center}
 .semantic-grid .instrument-description {display:block;font-size:.95rem;line-height:1.48;color:var(--muted)}
 .semantic-grid .instrument-tile:focus-visible {outline:2px solid var(--accent);outline-offset:7px;border-radius:9px}
+html[data-theme="dark"] .semantic-grid .instrument-icon img {filter:invert(.7)}
 .semantic-sequence {display:flex;align-items:center;gap:1rem;margin-top:2rem;padding-top:1.25rem;border-top:1px solid var(--line);font-size:.86rem;letter-spacing:.015em;color:var(--muted);flex-wrap:wrap}
 .semantic-sequence strong {color:var(--ink);font-weight:650}
 .semantic-sequence .arrow {color:#a07755;font-size:1.2rem}
@@ -65,9 +64,9 @@ def main_markup(prefix):
     <section class="instrument-index" aria-labelledby="featured-title">
       <div class="section-heading"><div><div class="eyebrow">The active instrument field</div><h2 id="featured-title">Three distinct acts.</h2></div><p>These are developing software capabilities at different acceptance stages—not three already certified MIDI 2.0 instruments.</p></div>
       <ul class="instrument-grid semantic-grid" aria-label="Sing, Ear and SatzfunkPlayer">
-       <li><a class="instrument-tile" href="#sing"><span class="instrument-icon"><img src="''' + asset('instrument-sing.svg') + '''" alt="Sing symbol: vocal source and radiating resonance" width="256" height="256"></span><span class="instrument-name">Sing</span><span class="instrument-meta">01 · synthesis</span><span class="instrument-description">A voice becomes an instrument: phonemes, notes, pressure and time produce sound.</span></a></li>
-       <li><a class="instrument-tile" href="#ear"><span class="instrument-icon"><img src="''' + asset('instrument-ear.svg') + '''" alt="Ear symbol: arriving arcs converge at a listening point" width="256" height="256"></span><span class="instrument-name">Ear</span><span class="instrument-meta">02 · listening</span><span class="instrument-description">Sound is heard and measured, rather than treated as a file that merely exists.</span></a></li>
-       <li><a class="instrument-tile" href="#satzfunk-player"><span class="instrument-icon"><img src="''' + asset('instrument-satzfunk-player.svg') + '''" alt="SatzfunkPlayer symbol: composed frame with image and timeline" width="256" height="256"></span><span class="instrument-name">SatzfunkPlayer</span><span class="instrument-meta">03 · presentation</span><span class="instrument-description">A recording becomes a listenable edition with an intentional poster image.</span></a></li>
+       <li><a class="instrument-tile" href="#sing"><span class="instrument-icon"><img src="''' + asset('instrument-sing.svg') + '''" alt="Sing: microphone icon" width="256" height="256"></span><span class="instrument-name">Sing</span><span class="instrument-meta">01 · synthesis</span><span class="instrument-description">A voice becomes an instrument: phonemes, notes, pressure and time produce sound.</span></a></li>
+       <li><a class="instrument-tile" href="#ear"><span class="instrument-icon"><img src="''' + asset('instrument-ear.svg') + '''" alt="Ear: ear icon" width="256" height="256"></span><span class="instrument-name">Ear</span><span class="instrument-meta">02 · listening</span><span class="instrument-description">Sound is heard and measured, rather than treated as a file that merely exists.</span></a></li>
+       <li><a class="instrument-tile" href="#satzfunk-player"><span class="instrument-icon"><img src="''' + asset('instrument-satzfunk-player.svg') + '''" alt="SatzfunkPlayer: clapperboard icon" width="256" height="256"></span><span class="instrument-name">SatzfunkPlayer</span><span class="instrument-meta">03 · presentation</span><span class="instrument-description">A recording becomes a listenable edition with an intentional poster image.</span></a></li>
       </ul>
       <div class="semantic-sequence" aria-label="Artistic relation"><strong>Voice</strong><span class="arrow" aria-hidden="true">→</span><strong>Listening</strong><span class="arrow" aria-hidden="true">→</span><strong>Published hearing</strong></div>
     </section>
@@ -106,9 +105,12 @@ def main():
     page=a.root/'index.html';css=a.root/'assets/site.css'
     assert page.exists() and css.exists()
     if a.asset_origin:
-        for slug in LOGOS:shutil.copy2(a.asset_origin/f'instrument-{slug}.svg',a.root/'assets'/f'instrument-{slug}.svg')
+        for slug in LOGOS:
+            shutil.copy2(a.asset_origin/f'instrument-{slug}.svg',
+                         a.root/'assets'/f'instrument-{slug}.svg')
     else:
-        for slug,data in LOGOS.items(): (a.root/'assets'/f'instrument-{slug}.svg').write_text(data+'\n')
+        for slug in LOGOS:
+            assert (a.root/'assets'/f'instrument-{slug}.svg').is_file()
     assert 'Semantic Instruments: three evidenced families' not in css.read_text()
     with css.open('a') as f:f.write('\n'+STYLE)
     rewrite(page,a.prefix)
