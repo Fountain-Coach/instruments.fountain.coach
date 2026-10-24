@@ -1,0 +1,17 @@
+{
+  "activated" : true,
+  "detail" : "Public HTTPS witness failed: SHA-256 mismatch at \/assets\/site.css; predecessor restored on host but public rollback not independently verified",
+  "previousReleaseID" : "estate-20261024-v14-satzfunk-reel-instruments",
+  "publicHost" : "instruments.fountain.coach",
+  "recordedAt" : 814526682.959415,
+  "releaseID" : "estate-20261024-v15-semantic-instruments-5ac718e",
+  "sourceInventorySHA256" : "50601d40a933b3c89376fd51d6b81e2e56cb02145cc0e65fd13c29393d9ad812",
+  "sourceRevision" : "5ac718ed67bd9d528a294d3d4e94ef2514efd67e",
+  "state" : "rollbackAcknowledgedUnverified",
+  "verifiedPublicFiles" : [
+    {
+      "path" : "\/index.html",
+      "sha256" : "68f654280e64b15b0c1c04585b47c05c0b1a067bc95112d55c261786ace18d4d"
+    }
+  ]
+}
