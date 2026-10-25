@@ -1,0 +1,12 @@
+{
+  "release": "estate-20261025-v17-ear-sing-links-69ec0e5",
+  "previous": "estate-20261024-v16-instruments-assets-5ac718e",
+  "sourceOwner": "69ec0e5e87db33934463e0e29076cbbe4f5b2cd0",
+  "baselineIndexSHA256": "68f654280e64b15b0c1c04585b47c05c0b1a067bc95112d55c261786ace18d4d",
+  "newIndexSHA256": "43df71cbef77c225ad58c8a27edec390fc2942a15fd0c75bf4b5c07200557460",
+  "changed": [
+    "index.html"
+  ],
+  "retainedFiles": 29,
+  "canonicalEssay": "https://fountain.coach/essays/the-ear-that-learns/"
+}

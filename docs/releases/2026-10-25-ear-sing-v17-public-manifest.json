@@ -1,0 +1,136 @@
+{
+  "files" : [
+    {
+      "path" : "\/assets\/catalog-grid-social.png",
+      "sha256" : "1930bdd4ec9d80dad9dbb0d9c3684973a9cf8066136b00fc4a503e0d2bc1e234"
+    },
+    {
+      "path" : "\/assets\/codex-login-instrument-icon.svg",
+      "sha256" : "8e8ce72832a8478eb3ea3af2064b9c8eae6d6881496579dea975d7bf6a371b8f"
+    },
+    {
+      "path" : "\/assets\/csound-auv3-instrument-social.png",
+      "sha256" : "bfa96a64fc330853acb757cfe3e86e4c6fac3c587125fb77fc8404194c9d0d24"
+    },
+    {
+      "path" : "\/assets\/csound-auv3-instrument.svg",
+      "sha256" : "498be5066bde85e698d2ec35df370b243f669b62c6cf77f69416d66337ab1649"
+    },
+    {
+      "path" : "\/assets\/estate-core.css",
+      "sha256" : "31baf2864046acf1885c49ccff40869d0dfbc9da63a2af674aecf218b8f8dbfe"
+    },
+    {
+      "path" : "\/assets\/estate-core.js",
+      "sha256" : "1c1a47002fa18c66c7ce328ac07db8457bf71aea2e5b878c8f7a3c80e53046a4"
+    },
+    {
+      "path" : "\/assets\/estate-shell-d9a170d82a21d19b.css",
+      "sha256" : "d9a170d82a21d19be5d155c19f3591e670bf8988c230e8c7737493937c40bb8b"
+    },
+    {
+      "path" : "\/assets\/estate-shell-logo-8c5fad1c3db56138.png",
+      "sha256" : "8c5fad1c3db56138d5959da75991dc8034a0be537ce46da6ffcc0d9655e7f729"
+    },
+    {
+      "path" : "\/assets\/estate-shell-logo.png",
+      "sha256" : "8c5fad1c3db56138d5959da75991dc8034a0be537ce46da6ffcc0d9655e7f729"
+    },
+    {
+      "path" : "\/assets\/estate-shell-state-4139f6eec4e0f8d7.js",
+      "sha256" : "4139f6eec4e0f8d737c768d1e4f5572c91430598f6ecf2523d3ea2437d6e1d5b"
+    },
+    {
+      "path" : "\/assets\/estate-shell-state.js",
+      "sha256" : "4139f6eec4e0f8d737c768d1e4f5572c91430598f6ecf2523d3ea2437d6e1d5b"
+    },
+    {
+      "path" : "\/assets\/fountain-coach-logo-transparent.png",
+      "sha256" : "8c5fad1c3db56138d5959da75991dc8034a0be537ce46da6ffcc0d9655e7f729"
+    },
+    {
+      "path" : "\/assets\/instrument-ear.svg",
+      "sha256" : "59987946969574248eb6fe94518ed1555644582c03be7ff3f308c63224c93b31"
+    },
+    {
+      "path" : "\/assets\/instrument-satzfunk-player.svg",
+      "sha256" : "869662c633d086ebce56a504fb51eae9ab82daff4d6c5e57903e1b6eb1eebf32"
+    },
+    {
+      "path" : "\/assets\/instrument-sing.svg",
+      "sha256" : "ad2b3766d5dd8f83f8d8eb0047d81717a3a624195fa2e81ff2e59a68ff064a29"
+    },
+    {
+      "path" : "\/assets\/instruments-triad-social.png",
+      "sha256" : "96868e1c2240a4cfe892f58233f18c22af17375cf8c4a80ad0cc8a85dfb0171e"
+    },
+    {
+      "path" : "\/assets\/instruments-triad-social.svg",
+      "sha256" : "3152c110b9b00aa9d67cbedd61dac1f7ce23b15526c8dc2e5b03651b72bfd229"
+    },
+    {
+      "path" : "\/assets\/lucide-isc-license.txt",
+      "sha256" : "1e7290b35280a048667bbf0ebabac1c7fd52a75300e8b2946ac165715997f2bc"
+    },
+    {
+      "path" : "\/assets\/reframe-codex-auth-instrument-social.png",
+      "sha256" : "b902db7811d544307fb0e47dd490a1143538a65956b5293a6fb7a59c72e1edc1"
+    },
+    {
+      "path" : "\/assets\/reframe-codex-auth-instrument.svg",
+      "sha256" : "beedb21e0aeaefcf8c459b75cb66f61c2b70c676e36b0f6611cc7ba5eac3500b"
+    },
+    {
+      "path" : "\/assets\/semantic-browser-instrument-icon.svg",
+      "sha256" : "6ae748a41c9874e970cb9c27dec9f2993c0737ec48c69d1409773f25e994d700"
+    },
+    {
+      "path" : "\/assets\/semantic-browser-instrument-social.png",
+      "sha256" : "f900b30cf68d96e23176c5692635ec89d99013291a3b6aeac7e5c9f7f90ae6cd"
+    },
+    {
+      "path" : "\/assets\/semantic-browser-instrument.svg",
+      "sha256" : "4962377831d213fc3559452a6dbf064eb2bc1b63a2f5b8360c3da56bf6b27216"
+    },
+    {
+      "path" : "\/assets\/site.css",
+      "sha256" : "bad09263355e590adfe73d975828e3e08a2067cc5a4afa275b19f2c1877145fc"
+    },
+    {
+      "path" : "\/assets\/site.js",
+      "sha256" : "75c9629c1e186b55cde0d384b70c596c4a0ebb45cf3540134c8e26ef949b8570"
+    },
+    {
+      "path" : "\/index.html",
+      "sha256" : "43df71cbef77c225ad58c8a27edec390fc2942a15fd0c75bf4b5c07200557460"
+    },
+    {
+      "path" : "\/instruments\/codex-auth-instrument\/index.html",
+      "sha256" : "56a65da13f63a2c8c568e9d8f9ecfcfe92bafd0f69b02fcfab8018893d1a11a0"
+    },
+    {
+      "path" : "\/instruments\/csound-auv3\/index.html",
+      "sha256" : "3c76f6f3437e3c6dc063cac9bcd8e753783e9b628a372e748b42b39927eede73"
+    },
+    {
+      "path" : "\/instruments\/semantic-browser\/index.html",
+      "sha256" : "06cb3c060553a9279debcee7e463bfaf8d3667a0e683a87e4f9e60d3d5011d7c"
+    },
+    {
+      "path" : "\/repair-manifest.json",
+      "sha256" : "ac254b8f80ad18f9171cda2ea13f2f5bede08ae5187b20862f2dc062e061149e"
+    }
+  ],
+  "previousReleaseID" : "estate-20261024-v16-instruments-assets-5ac718e",
+  "publicHost" : "instruments.fountain.coach",
+  "publicWitnessPaths" : [
+    "\/index.html",
+    "\/assets\/site.css",
+    "\/assets\/instrument-sing.svg",
+    "\/assets\/instrument-ear.svg",
+    "\/assets\/instrument-satzfunk-player.svg",
+    "\/instruments\/codex-auth-instrument\/index.html"
+  ],
+  "releaseID" : "estate-20261025-v17-ear-sing-links-69ec0e5",
+  "sourceRevision" : "69ec0e5e87db33934463e0e29076cbbe4f5b2cd0"
+}
